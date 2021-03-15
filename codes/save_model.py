@@ -10,6 +10,7 @@ if not os.path.exists(model_dir):
     os.mkdir(model_dir)
 
 tokenizer.save_pretrained(model_dir)
+model.save_pretrained(model_dir)
 
 # 打印模型所有参数
 dict_b = torch.load(os.path.join(model_dir, 'pytorch_model.bin'))
