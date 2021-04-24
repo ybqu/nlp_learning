@@ -152,3 +152,5 @@ papers/
 *.txt
 codes/comment/data/
 codes/blanklm/data/
+
+project/*
